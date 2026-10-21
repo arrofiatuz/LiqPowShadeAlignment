@@ -180,8 +180,7 @@ def tampil_stage(s, key):
 
     st.subheader(f"Regresi warna versi terpilih: {versi}")
     st.dataframe(s["persamaan"].round(4), hide_index=True)
-    st.pyplot(core.plot_aktual_vs_prediksi(s["aktual"], s["pred"], f"{s['label_target']} (versi {versi})"),
-              clear_figure=True)
+
 
     st.subheader("Model klasifikasi Match/Unmatch")
     pl = core.persamaan_logistik(k)
