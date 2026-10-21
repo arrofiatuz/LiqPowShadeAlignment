@@ -1,0 +1,10 @@
+streamlit>=1.40
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-image
+scikit-learn>=1.4
+openpyxl
+jinja2
